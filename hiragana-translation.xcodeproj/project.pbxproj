@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02616DB60BDA696884FD6E7E /* Pods_hiragana_translationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4E19E9C9C58AA2D7275FE3 /* Pods_hiragana_translationTests.framework */; };
+		8B3DCFCC22D0D063000E9D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCB22D0D063000E9D82 /* AppDelegate.swift */; };
+		8B3DCFCE22D0D063000E9D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCD22D0D063000E9D82 /* ViewController.swift */; };
+		8B3DCFD122D0D063000E9D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCF22D0D063000E9D82 /* Main.storyboard */; };
+		8B3DCFD322D0D06D000E9D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DCFD222D0D06D000E9D82 /* Assets.xcassets */; };
+		8B3DCFD622D0D06D000E9D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DCFD422D0D06D000E9D82 /* LaunchScreen.storyboard */; };
+		8B3DCFE122D0D06D000E9D82 /* hiragana_translationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFE022D0D06D000E9D82 /* hiragana_translationTests.swift */; };
+		8B3DCFEC22D0D06D000E9D82 /* hiragana_translationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFEB22D0D06D000E9D82 /* hiragana_translationUITests.swift */; };
+		E64BE3DD141E20DE9C073DA9 /* Pods_hiragana_translationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF176FA87D7FB941C94173C8 /* Pods_hiragana_translationUITests.framework */; };
+		F2BA7FABCAB930DEB51D8F76 /* Pods_hiragana_translation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81D3FF47203A4EF5092062 /* Pods_hiragana_translation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B3DCFDD22D0D06D000E9D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3DCFC022D0D063000E9D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3DCFC722D0D063000E9D82;
+			remoteInfo = "hiragana-translation";
+		};
+		8B3DCFE822D0D06D000E9D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B3DCFC022D0D063000E9D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3DCFC722D0D063000E9D82;
+			remoteInfo = "hiragana-translation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A81D3FF47203A4EF5092062 /* Pods_hiragana_translation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiragana_translation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3865A002D47E5211101C4AA1 /* Pods-hiragana-translation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translation.release.xcconfig"; path = "Target Support Files/Pods-hiragana-translation/Pods-hiragana-translation.release.xcconfig"; sourceTree = "<group>"; };
+		3D4E19E9C9C58AA2D7275FE3 /* Pods_hiragana_translationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiragana_translationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489D4E1CB2822509F252FD3B /* Pods-hiragana-translationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationTests.debug.xcconfig"; path = "Target Support Files/Pods-hiragana-translationTests/Pods-hiragana-translationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61E84B6C4FF3EDAFC9E96D01 /* Pods-hiragana-translation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translation.debug.xcconfig"; path = "Target Support Files/Pods-hiragana-translation/Pods-hiragana-translation.debug.xcconfig"; sourceTree = "<group>"; };
+		63FBCE567C8828B9C169E0D6 /* Pods-hiragana-translationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationTests.release.xcconfig"; path = "Target Support Files/Pods-hiragana-translationTests/Pods-hiragana-translationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B3DCFC822D0D063000E9D82 /* hiragana-translation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hiragana-translation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3DCFCB22D0D063000E9D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B3DCFCD22D0D063000E9D82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B3DCFD022D0D063000E9D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B3DCFD222D0D06D000E9D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B3DCFD522D0D06D000E9D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B3DCFD722D0D06D000E9D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3DCFDC22D0D06D000E9D82 /* hiragana-translationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hiragana-translationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3DCFE022D0D06D000E9D82 /* hiragana_translationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiragana_translationTests.swift; sourceTree = "<group>"; };
+		8B3DCFE222D0D06D000E9D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3DCFE722D0D06D000E9D82 /* hiragana-translationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hiragana-translationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3DCFEB22D0D06D000E9D82 /* hiragana_translationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiragana_translationUITests.swift; sourceTree = "<group>"; };
+		8B3DCFED22D0D06D000E9D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0A992E2F486AC1179EAABE /* Pods-hiragana-translationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationUITests.debug.xcconfig"; path = "Target Support Files/Pods-hiragana-translationUITests/Pods-hiragana-translationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A22DDBF9C9C710D32C19B34E /* Pods-hiragana-translationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationUITests.release.xcconfig"; path = "Target Support Files/Pods-hiragana-translationUITests/Pods-hiragana-translationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF176FA87D7FB941C94173C8 /* Pods_hiragana_translationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiragana_translationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B3DCFC522D0D063000E9D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BA7FABCAB930DEB51D8F76 /* Pods_hiragana_translation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3DCFD922D0D06D000E9D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02616DB60BDA696884FD6E7E /* Pods_hiragana_translationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3DCFE422D0D06D000E9D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64BE3DD141E20DE9C073DA9 /* Pods_hiragana_translationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D883A12E4AE20DFCA51B5B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61E84B6C4FF3EDAFC9E96D01 /* Pods-hiragana-translation.debug.xcconfig */,
+				3865A002D47E5211101C4AA1 /* Pods-hiragana-translation.release.xcconfig */,
+				489D4E1CB2822509F252FD3B /* Pods-hiragana-translationTests.debug.xcconfig */,
+				63FBCE567C8828B9C169E0D6 /* Pods-hiragana-translationTests.release.xcconfig */,
+				8C0A992E2F486AC1179EAABE /* Pods-hiragana-translationUITests.debug.xcconfig */,
+				A22DDBF9C9C710D32C19B34E /* Pods-hiragana-translationUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5BB7F0DE4FB1D64E16434E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A81D3FF47203A4EF5092062 /* Pods_hiragana_translation.framework */,
+				3D4E19E9C9C58AA2D7275FE3 /* Pods_hiragana_translationTests.framework */,
+				FF176FA87D7FB941C94173C8 /* Pods_hiragana_translationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B3DCFBF22D0D063000E9D82 = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFCA22D0D063000E9D82 /* hiragana-translation */,
+				8B3DCFDF22D0D06D000E9D82 /* hiragana-translationTests */,
+				8B3DCFEA22D0D06D000E9D82 /* hiragana-translationUITests */,
+				8B3DCFC922D0D063000E9D82 /* Products */,
+				3D883A12E4AE20DFCA51B5B3 /* Pods */,
+				5BB7F0DE4FB1D64E16434E2D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B3DCFC922D0D063000E9D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFC822D0D063000E9D82 /* hiragana-translation.app */,
+				8B3DCFDC22D0D06D000E9D82 /* hiragana-translationTests.xctest */,
+				8B3DCFE722D0D06D000E9D82 /* hiragana-translationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B3DCFCA22D0D063000E9D82 /* hiragana-translation */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFCB22D0D063000E9D82 /* AppDelegate.swift */,
+				8B3DCFCD22D0D063000E9D82 /* ViewController.swift */,
+				8B3DCFCF22D0D063000E9D82 /* Main.storyboard */,
+				8B3DCFD222D0D06D000E9D82 /* Assets.xcassets */,
+				8B3DCFD422D0D06D000E9D82 /* LaunchScreen.storyboard */,
+				8B3DCFD722D0D06D000E9D82 /* Info.plist */,
+			);
+			path = "hiragana-translation";
+			sourceTree = "<group>";
+		};
+		8B3DCFDF22D0D06D000E9D82 /* hiragana-translationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFE022D0D06D000E9D82 /* hiragana_translationTests.swift */,
+				8B3DCFE222D0D06D000E9D82 /* Info.plist */,
+			);
+			path = "hiragana-translationTests";
+			sourceTree = "<group>";
+		};
+		8B3DCFEA22D0D06D000E9D82 /* hiragana-translationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFEB22D0D06D000E9D82 /* hiragana_translationUITests.swift */,
+				8B3DCFED22D0D06D000E9D82 /* Info.plist */,
+			);
+			path = "hiragana-translationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B3DCFC722D0D063000E9D82 /* hiragana-translation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3DCFF022D0D06D000E9D82 /* Build configuration list for PBXNativeTarget "hiragana-translation" */;
+			buildPhases = (
+				239DB48A7D7FAB2076FD5628 /* [CP] Check Pods Manifest.lock */,
+				8B3DCFC422D0D063000E9D82 /* Sources */,
+				8B3DCFC522D0D063000E9D82 /* Frameworks */,
+				8B3DCFC622D0D063000E9D82 /* Resources */,
+				FB79672453369D879C5E4594 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hiragana-translation";
+			productName = "hiragana-translation";
+			productReference = 8B3DCFC822D0D063000E9D82 /* hiragana-translation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B3DCFDB22D0D06D000E9D82 /* hiragana-translationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3DCFF322D0D06D000E9D82 /* Build configuration list for PBXNativeTarget "hiragana-translationTests" */;
+			buildPhases = (
+				FDD17B4F8310ADA26DAB95D2 /* [CP] Check Pods Manifest.lock */,
+				8B3DCFD822D0D06D000E9D82 /* Sources */,
+				8B3DCFD922D0D06D000E9D82 /* Frameworks */,
+				8B3DCFDA22D0D06D000E9D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3DCFDE22D0D06D000E9D82 /* PBXTargetDependency */,
+			);
+			name = "hiragana-translationTests";
+			productName = "hiragana-translationTests";
+			productReference = 8B3DCFDC22D0D06D000E9D82 /* hiragana-translationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B3DCFE622D0D06D000E9D82 /* hiragana-translationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B3DCFF622D0D06D000E9D82 /* Build configuration list for PBXNativeTarget "hiragana-translationUITests" */;
+			buildPhases = (
+				EA0F0658AC20CBA2E8728C4B /* [CP] Check Pods Manifest.lock */,
+				8B3DCFE322D0D06D000E9D82 /* Sources */,
+				8B3DCFE422D0D06D000E9D82 /* Frameworks */,
+				8B3DCFE522D0D06D000E9D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B3DCFE922D0D06D000E9D82 /* PBXTargetDependency */,
+			);
+			name = "hiragana-translationUITests";
+			productName = "hiragana-translationUITests";
+			productReference = 8B3DCFE722D0D06D000E9D82 /* hiragana-translationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B3DCFC022D0D063000E9D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "鈴木孝伸";
+				TargetAttributes = {
+					8B3DCFC722D0D063000E9D82 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					8B3DCFDB22D0D06D000E9D82 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8B3DCFC722D0D063000E9D82;
+					};
+					8B3DCFE622D0D06D000E9D82 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8B3DCFC722D0D063000E9D82;
+					};
+				};
+			};
+			buildConfigurationList = 8B3DCFC322D0D063000E9D82 /* Build configuration list for PBXProject "hiragana-translation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B3DCFBF22D0D063000E9D82;
+			productRefGroup = 8B3DCFC922D0D063000E9D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B3DCFC722D0D063000E9D82 /* hiragana-translation */,
+				8B3DCFDB22D0D06D000E9D82 /* hiragana-translationTests */,
+				8B3DCFE622D0D06D000E9D82 /* hiragana-translationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B3DCFC622D0D063000E9D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3DCFD622D0D06D000E9D82 /* LaunchScreen.storyboard in Resources */,
+				8B3DCFD322D0D06D000E9D82 /* Assets.xcassets in Resources */,
+				8B3DCFD122D0D063000E9D82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3DCFDA22D0D06D000E9D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3DCFE522D0D06D000E9D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		239DB48A7D7FAB2076FD5628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hiragana-translation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0F0658AC20CBA2E8728C4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hiragana-translationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB79672453369D879C5E4594 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hiragana-translation/Pods-hiragana-translation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hiragana-translation/Pods-hiragana-translation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hiragana-translation/Pods-hiragana-translation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDD17B4F8310ADA26DAB95D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hiragana-translationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B3DCFC422D0D063000E9D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3DCFCE22D0D063000E9D82 /* ViewController.swift in Sources */,
+				8B3DCFCC22D0D063000E9D82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3DCFD822D0D06D000E9D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3DCFE122D0D06D000E9D82 /* hiragana_translationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B3DCFE322D0D06D000E9D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B3DCFEC22D0D06D000E9D82 /* hiragana_translationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B3DCFDE22D0D06D000E9D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B3DCFC722D0D063000E9D82 /* hiragana-translation */;
+			targetProxy = 8B3DCFDD22D0D06D000E9D82 /* PBXContainerItemProxy */;
+		};
+		8B3DCFE922D0D06D000E9D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B3DCFC722D0D063000E9D82 /* hiragana-translation */;
+			targetProxy = 8B3DCFE822D0D06D000E9D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B3DCFCF22D0D063000E9D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3DCFD022D0D063000E9D82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B3DCFD422D0D06D000E9D82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B3DCFD522D0D06D000E9D82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B3DCFEE22D0D06D000E9D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B3DCFEF22D0D06D000E9D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B3DCFF122D0D06D000E9D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E84B6C4FF3EDAFC9E96D01 /* Pods-hiragana-translation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8U9T696SV;
+				INFOPLIST_FILE = "hiragana-translation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiTakanobu.hiragana-translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B3DCFF222D0D06D000E9D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3865A002D47E5211101C4AA1 /* Pods-hiragana-translation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8U9T696SV;
+				INFOPLIST_FILE = "hiragana-translation/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiTakanobu.hiragana-translation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B3DCFF422D0D06D000E9D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489D4E1CB2822509F252FD3B /* Pods-hiragana-translationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8U9T696SV;
+				INFOPLIST_FILE = "hiragana-translationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiTakanobu.hiragana-translationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hiragana-translation.app/hiragana-translation";
+			};
+			name = Debug;
+		};
+		8B3DCFF522D0D06D000E9D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FBCE567C8828B9C169E0D6 /* Pods-hiragana-translationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8U9T696SV;
+				INFOPLIST_FILE = "hiragana-translationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiTakanobu.hiragana-translationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hiragana-translation.app/hiragana-translation";
+			};
+			name = Release;
+		};
+		8B3DCFF722D0D06D000E9D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0A992E2F486AC1179EAABE /* Pods-hiragana-translationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8U9T696SV;
+				INFOPLIST_FILE = "hiragana-translationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiTakanobu.hiragana-translationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hiragana-translation";
+			};
+			name = Debug;
+		};
+		8B3DCFF822D0D06D000E9D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22DDBF9C9C710D32C19B34E /* Pods-hiragana-translationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8U9T696SV;
+				INFOPLIST_FILE = "hiragana-translationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suzukiTakanobu.hiragana-translationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hiragana-translation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B3DCFC322D0D063000E9D82 /* Build configuration list for PBXProject "hiragana-translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3DCFEE22D0D06D000E9D82 /* Debug */,
+				8B3DCFEF22D0D06D000E9D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3DCFF022D0D06D000E9D82 /* Build configuration list for PBXNativeTarget "hiragana-translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3DCFF122D0D06D000E9D82 /* Debug */,
+				8B3DCFF222D0D06D000E9D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3DCFF322D0D06D000E9D82 /* Build configuration list for PBXNativeTarget "hiragana-translationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3DCFF422D0D06D000E9D82 /* Debug */,
+				8B3DCFF522D0D06D000E9D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B3DCFF622D0D06D000E9D82 /* Build configuration list for PBXNativeTarget "hiragana-translationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B3DCFF722D0D06D000E9D82 /* Debug */,
+				8B3DCFF822D0D06D000E9D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B3DCFC022D0D063000E9D82 /* Project object */;
+}
