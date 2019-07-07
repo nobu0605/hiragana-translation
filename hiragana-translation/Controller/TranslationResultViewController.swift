@@ -18,17 +18,19 @@ class TranslationResultViewController: UIViewController {
     @IBOutlet var navigationTitle: UINavigationItem!
     
     var sentence:String = ""
-    var inputText:String?
+    var inputText:String = ""
     var translationResult :String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationTitle.title = "変換結果画面"
+        setBeforeTranslationLabel()
+        httpRequest()
+    }
+    
+    func setBeforeTranslationLabel(){
         beforeTranslationLabel.text = inputText
         setLabel(label: beforeTranslationLabel)
-        
-        sentence = inputText!
-        HttpRequest()
     }
     
     func setLabel(label:UILabel){
@@ -36,12 +38,13 @@ class TranslationResultViewController: UIViewController {
         label.sizeToFit()
     }
     
-    func HttpRequest() {
+    func httpRequest() {
         let url = "https://labs.goo.ne.jp/api/hiragana"
         let headers: HTTPHeaders = [
             "Accept": "application/json",
             "Contenttype": "application/x-www-form-urlencoded"
         ]
+        sentence = inputText
         let parameters:[String: Any] = [
             "sentence": sentence,
             "app_id": "e92fd7b7754298d501523c2b4612275e854677a8adbf3b4184ff173464297afc",
@@ -50,11 +53,8 @@ class TranslationResultViewController: UIViewController {
         
         Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON { response in
             if let result = response.result.value as? [String: Any] {
-                let translationResultJSON :JSON = JSON(result)
-                self.translationResult = translationResultJSON["converted"].stringValue
-                self.afterTranslationLabel.text = self.translationResult
-                self.afterTranslationLabel.text = self.afterTranslationLabel.text!.remove(characterSet: .whitespaces)
-                
+                self.translationResult = JSON(result)["converted"].stringValue
+                self.afterTranslationLabel.text = self.translationResult.remove(characterSet: .whitespaces)
                 self.connectionLabel.text = ""
                 self.setLabel(label: self.afterTranslationLabel)
             }else{
@@ -63,7 +63,5 @@ class TranslationResultViewController: UIViewController {
             }
         }
     }
-
-
 }
 

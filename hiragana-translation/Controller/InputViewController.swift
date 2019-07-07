@@ -15,7 +15,7 @@ class InputViewController: UIViewController {
     @IBOutlet var errorText: UILabel!
     
     let translationResultVC = TranslationResultViewController()
-    var textCountResult = false
+    var textCheckResult = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,9 +24,8 @@ class InputViewController: UIViewController {
     }
     
     @IBAction func translationButtonPressed(_ sender: Any) {
-        textCountResult = textFieldCheck(japaneseTextField)
-        if textCountResult == false{ return }
-        
+        textCheckResult = textFieldCheck(japaneseTextField)
+        if textCheckResult == false{ return }
         performSegue(withIdentifier: "goToResult", sender: nil)
     }
     
@@ -40,7 +39,7 @@ class InputViewController: UIViewController {
 //    画面に収まりきるように25文字以内で入力してもらう
 //    入力フォームが空じゃないかどうかチェック
     func textFieldCheck(_ textField: UITextField) -> Bool {
-        if textField.text!.count <= 0 {
+        if textField.text!.count == 0 {
             errorText.text = "文字が入力されていません"
             errorText.alpha = 1
             return false

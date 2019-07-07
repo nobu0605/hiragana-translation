@@ -9,7 +9,7 @@
 import Foundation
 
 extension String {
-    /// StringからCharacterSetを取り除く
+    /// テキストから空白を取り除く
     func remove(characterSet: CharacterSet) -> String {
         return components(separatedBy: characterSet).joined()
     }
