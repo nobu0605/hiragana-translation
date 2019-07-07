@@ -18,19 +18,22 @@ class TranslationResultViewController: UIViewController {
     @IBOutlet var navigationTitle: UINavigationItem!
     
     var sentence:String = ""
-    let resultDataModel = ResultDataModel()
     var inputText:String?
+    var translationResult :String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationTitle.title = "変換結果画面"
         beforeTranslationLabel.text = inputText
+        setLabel(label: beforeTranslationLabel)
+        
         sentence = inputText!
         HttpRequest()
-        
-        let viewSize = self.view.frame.size
-        beforeTranslationLabel.numberOfLines = 0
-        beforeTranslationLabel.sizeToFit()
+    }
+    
+    func setLabel(label:UILabel){
+        label.numberOfLines = 0
+        label.sizeToFit()
     }
     
     func HttpRequest() {
@@ -48,9 +51,12 @@ class TranslationResultViewController: UIViewController {
         Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON { response in
             if let result = response.result.value as? [String: Any] {
                 let translationResultJSON :JSON = JSON(result)
-                self.resultDataModel.translationResult = translationResultJSON["converted"].stringValue
-                self.afterTranslationLabel.text = self.resultDataModel.translationResult
+                self.translationResult = translationResultJSON["converted"].stringValue
+                self.afterTranslationLabel.text = self.translationResult
+                self.afterTranslationLabel.text = self.afterTranslationLabel.text!.remove(characterSet: .whitespaces)
+                
                 self.connectionLabel.text = ""
+                self.setLabel(label: self.afterTranslationLabel)
             }else{
                 print("Error\(String(describing: response.result.error))")
                 self.connectionLabel.text = "ネットワークエラー"
@@ -59,5 +65,5 @@ class TranslationResultViewController: UIViewController {
     }
 
 
-
 }
+

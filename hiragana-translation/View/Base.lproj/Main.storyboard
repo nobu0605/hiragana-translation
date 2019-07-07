@@ -34,19 +34,19 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVV-qZ-Pyo">
-                                        <rect key="frame" x="53" y="239" width="273" height="93"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nVV-qZ-Pyo">
+                                        <rect key="frame" x="58" y="233" width="258" height="93"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <string key="text" base64-UTF8="YES">
-44Gy44KJ44GM44Gq44Gr5aSJ5o+b44GX44Gf44GE5pel5pys6Kqe44GuERERERERERERERHigKjjg4bj
-gq3jgrnjg4jjgpLlhaXlipvjgZfjgabjgY/jgaDjgZXjgYTjgII
+44Gy44KJ44GM44Gq44Gr5aSJ5o+b44GX44Gf44GE5pel5pys6KqeERERERERERERERHigKjjg4bjgq3j
+grnjg4jjgpIyNeaWh+Wtl+S7peWGheOBp+WFpeWKmxEREeKAqOOBl+OBpuOBj+OBoOOBleOBhOOAgg
 </string>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUH-fd-lRe">
-                                        <rect key="frame" x="63" y="403" width="253" height="42"/>
+                                        <rect key="frame" x="63" y="414" width="253" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
@@ -57,6 +57,17 @@ gq3jgrnjg4jjgpLlhaXlipvjgZfjgabjgY/jgaDjgZXjgYTjgII
                                             <action selector="translationButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xc4-rU-BIu"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wr5-Yw-8IP">
+                                        <rect key="frame" x="67" y="381" width="238" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text" base64-UTF8="YES">
+4oC7MjXmloflrZfku6XlhoXjgaflhaXlipsRERHjgZfjgabkuIvjgZXjgYTigKjjgZfjgabjgY/jgaDj
+gZXjgYTjgII
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -72,6 +83,7 @@ gq3jgrnjg4jjgpLlhaXlipvjgZfjgabjgY/jgaDjgZXjgYTjgII
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="hes-wp-s4H"/>
                     <connections>
+                        <outlet property="errorText" destination="Wr5-Yw-8IP" id="TjQ-b3-a6n"/>
                         <outlet property="japaneseTextField" destination="HXH-Yy-lwl" id="xv5-iG-mSQ"/>
                         <outlet property="navigationTitle" destination="hes-wp-s4H" id="oKC-ai-3m7"/>
                         <segue destination="7II-99-wuI" kind="show" identifier="goToResult" id="BIA-NY-8KC"/>
@@ -93,16 +105,16 @@ gq3jgrnjg4jjgpLlhaXlipvjgZfjgabjgY/jgaDjgZXjgYTjgII
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="変換結果" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiL-h3-W1d">
-                                        <rect key="frame" x="16" y="473" width="351" height="47"/>
+                                        <rect key="frame" x="38" y="470" width="307" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="入力したテキスト" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aI-U5-08l">
-                                        <rect key="frame" x="37" y="263" width="315" height="47"/>
+                                        <rect key="frame" x="37" y="248" width="307" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>

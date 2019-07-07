@@ -17,13 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGz-yw-NXg">
-                                <rect key="frame" x="0.0" y="-1" width="375" height="668"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGz-yw-NXg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6S-e0-fIA">
-                                        <rect key="frame" x="63" y="222" width="248" height="116"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6S-e0-fIA">
+                                        <rect key="frame" x="63.5" y="276" width="248" height="115.5"/>
                                         <string key="text" base64-UTF8="YES">
 SGlyYWdhbmERERERERER4oCoVHJhbnNsYXRpb24
 </string>
@@ -33,9 +31,19 @@ SGlyYWdhbmERERERERER4oCoVHJhbnNsYXRpb24
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="l6S-e0-fIA" firstAttribute="centerY" secondItem="NGz-yw-NXg" secondAttribute="centerY" id="eg3-sd-4PZ"/>
+                                    <constraint firstItem="l6S-e0-fIA" firstAttribute="centerX" secondItem="NGz-yw-NXg" secondAttribute="centerX" id="jaf-aZ-zYD"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NGz-yw-NXg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5IH-xm-PGq"/>
+                            <constraint firstItem="NGz-yw-NXg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="H7T-Vn-OYd"/>
+                            <constraint firstItem="NGz-yw-NXg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="R4E-Mc-Um5"/>
+                            <constraint firstItem="NGz-yw-NXg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eWd-Dr-Bkf"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
