@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		02616DB60BDA696884FD6E7E /* Pods_hiragana_translationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4E19E9C9C58AA2D7275FE3 /* Pods_hiragana_translationTests.framework */; };
 		8B3DCFCC22D0D063000E9D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCB22D0D063000E9D82 /* AppDelegate.swift */; };
-		8B3DCFCE22D0D063000E9D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCD22D0D063000E9D82 /* ViewController.swift */; };
+		8B3DCFCE22D0D063000E9D82 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCD22D0D063000E9D82 /* InputViewController.swift */; };
 		8B3DCFD122D0D063000E9D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DCFCF22D0D063000E9D82 /* Main.storyboard */; };
 		8B3DCFD322D0D06D000E9D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DCFD222D0D06D000E9D82 /* Assets.xcassets */; };
 		8B3DCFD622D0D06D000E9D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3DCFD422D0D06D000E9D82 /* LaunchScreen.storyboard */; };
 		8B3DCFE122D0D06D000E9D82 /* hiragana_translationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFE022D0D06D000E9D82 /* hiragana_translationTests.swift */; };
 		8B3DCFEC22D0D06D000E9D82 /* hiragana_translationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFEB22D0D06D000E9D82 /* hiragana_translationUITests.swift */; };
+		8B3DCFFF22D18BD8000E9D82 /* ResultDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DCFFE22D18BD8000E9D82 /* ResultDataModel.swift */; };
+		8B3DD00122D1A325000E9D82 /* TranslationResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3DD00022D1A325000E9D82 /* TranslationResultViewController.swift */; };
 		E64BE3DD141E20DE9C073DA9 /* Pods_hiragana_translationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF176FA87D7FB941C94173C8 /* Pods_hiragana_translationUITests.framework */; };
 		F2BA7FABCAB930DEB51D8F76 /* Pods_hiragana_translation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81D3FF47203A4EF5092062 /* Pods_hiragana_translation.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +47,7 @@
 		63FBCE567C8828B9C169E0D6 /* Pods-hiragana-translationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationTests.release.xcconfig"; path = "Target Support Files/Pods-hiragana-translationTests/Pods-hiragana-translationTests.release.xcconfig"; sourceTree = "<group>"; };
 		8B3DCFC822D0D063000E9D82 /* hiragana-translation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hiragana-translation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3DCFCB22D0D063000E9D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B3DCFCD22D0D063000E9D82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B3DCFCD22D0D063000E9D82 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		8B3DCFD022D0D063000E9D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B3DCFD222D0D06D000E9D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B3DCFD522D0D06D000E9D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,8 @@
 		8B3DCFE722D0D06D000E9D82 /* hiragana-translationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hiragana-translationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3DCFEB22D0D06D000E9D82 /* hiragana_translationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiragana_translationUITests.swift; sourceTree = "<group>"; };
 		8B3DCFED22D0D06D000E9D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3DCFFE22D18BD8000E9D82 /* ResultDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDataModel.swift; sourceTree = "<group>"; };
+		8B3DD00022D1A325000E9D82 /* TranslationResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResultViewController.swift; sourceTree = "<group>"; };
 		8C0A992E2F486AC1179EAABE /* Pods-hiragana-translationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationUITests.debug.xcconfig"; path = "Target Support Files/Pods-hiragana-translationUITests/Pods-hiragana-translationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A22DDBF9C9C710D32C19B34E /* Pods-hiragana-translationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hiragana-translationUITests.release.xcconfig"; path = "Target Support Files/Pods-hiragana-translationUITests/Pods-hiragana-translationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FF176FA87D7FB941C94173C8 /* Pods_hiragana_translationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hiragana_translationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,9 +141,10 @@
 		8B3DCFCA22D0D063000E9D82 /* hiragana-translation */ = {
 			isa = PBXGroup;
 			children = (
+				8B3DCFFB22D18B7C000E9D82 /* Model */,
+				8B3DCFF922D1899F000E9D82 /* View */,
+				8B3DCFFA22D189D3000E9D82 /* Controller */,
 				8B3DCFCB22D0D063000E9D82 /* AppDelegate.swift */,
-				8B3DCFCD22D0D063000E9D82 /* ViewController.swift */,
-				8B3DCFCF22D0D063000E9D82 /* Main.storyboard */,
 				8B3DCFD222D0D06D000E9D82 /* Assets.xcassets */,
 				8B3DCFD422D0D06D000E9D82 /* LaunchScreen.storyboard */,
 				8B3DCFD722D0D06D000E9D82 /* Info.plist */,
@@ -163,6 +168,31 @@
 				8B3DCFED22D0D06D000E9D82 /* Info.plist */,
 			);
 			path = "hiragana-translationUITests";
+			sourceTree = "<group>";
+		};
+		8B3DCFF922D1899F000E9D82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFCF22D0D063000E9D82 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B3DCFFA22D189D3000E9D82 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFCD22D0D063000E9D82 /* InputViewController.swift */,
+				8B3DD00022D1A325000E9D82 /* TranslationResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B3DCFFB22D18B7C000E9D82 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B3DCFFE22D18BD8000E9D82 /* ResultDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,8 +416,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3DCFCE22D0D063000E9D82 /* ViewController.swift in Sources */,
+				8B3DCFCE22D0D063000E9D82 /* InputViewController.swift in Sources */,
+				8B3DD00122D1A325000E9D82 /* TranslationResultViewController.swift in Sources */,
 				8B3DCFCC22D0D063000E9D82 /* AppDelegate.swift in Sources */,
+				8B3DCFFF22D18BD8000E9D82 /* ResultDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
