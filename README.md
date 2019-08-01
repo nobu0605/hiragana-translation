@@ -1,4 +1,4 @@
-# hiragana-translatio
+# hiragana-translation
 
 ## 仕様情報
 - IDEバージョン：Xcode 10.2
